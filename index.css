@@ -1,0 +1,29 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    display:block;
+    width: 100%;
+    background-image: url("Images/headerStandIn.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1{
+    text-align: center;
+
+}
+
+i{
+    color: black;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align:center;
+}
+

@@ -1,0 +1,21 @@
+table{
+    border: 2px solid black;
+    width: 90%;
+    min-height: 300px;
+    border-spacing: 30px;
+    margin:auto;
+}
+thead{
+
+}
+tbody{
+
+}
+tr{
+
+}
+
+td{
+    text-align: center;
+    
+}
