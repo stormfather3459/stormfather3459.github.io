@@ -14,6 +14,32 @@ header{
     background-size: cover;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    margin-top: 20px;
+    min-height: 70px;
+    background-image:url("/Images/panel.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding:0px;
+    color:whitesmoke;
+}
+
+#socials a{
+    color:whitesmoke;
+    display:  inline-block;
+    margin-right: 20px;
+}
+#socials p{
+    display:  inline-block;
 }
 
 header h1{
@@ -28,8 +54,30 @@ a{
 a:hover{
     cursor:pointer;
 }
+
+#about-me{
+    display: inline-block;
+    padding-bottom:35px;
+    margin-bottom: 20px;
+}
+.img-container{
+    margin-top:0px;
+    width:100%;
+    display:inline-block;
+}
+
+.img-container p {
+    margin-top:0px;
+}
+
+.img-container img{
+    float:left;
+    height:200px;
+    margin: 10px;
+}
 h1,h2,h3,h4,h5,h6{
     margin-top:0px;
     text-align:center;
+    color:tomato;
 }
 
