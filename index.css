@@ -102,12 +102,18 @@ p{
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 20px;
+    background-color: #B17457;
     
 }
 
 .grid-item{
     text-align: center;
     padding: 20px;
+    
+}
+
+.grid-item p{
+    color:#D8D2C2;
 }
 
 .cv-item{
