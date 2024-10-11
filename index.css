@@ -1,6 +1,8 @@
 body{
     margin:0px;
     padding:0px;
+    background-color: #FAF7F0;
+    font-family:Roboto ;
 }
 
 header{
@@ -32,6 +34,9 @@ footer{
     padding:0px;
     color:whitesmoke;
 }
+footer p{
+    color:whitesmoke;
+}
 
 #socials a{
     color:whitesmoke;
@@ -42,12 +47,9 @@ footer{
     display:  inline-block;
 }
 
-header h1{
-    color:tomato;
 
-}
 a{
-    color: black;
+    color: 4A4947;
     text-decoration: none;
 }
 
@@ -55,10 +57,15 @@ a:hover{
     cursor:pointer;
 }
 
+i:hover{
+    cursor:pointer;
+}
+
 #about-me{
     display: inline-block;
     padding-bottom:35px;
     margin-bottom: 20px;
+    margin-top:20px;
 }
 .img-container{
     margin-top:0px;
@@ -68,16 +75,22 @@ a:hover{
 
 .img-container p {
     margin-top:0px;
+    color: #4A4947;
+    
 }
 
 .img-container img{
     float:left;
     height:200px;
-    margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 h1,h2,h3,h4,h5,h6{
     margin-top:0px;
     text-align:center;
-    color:tomato;
+    color:#DA8359;
+}
+p{
+    color: #4A4947;
 }
 

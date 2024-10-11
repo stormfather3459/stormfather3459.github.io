@@ -4,6 +4,9 @@ table{
     min-height: 300px;
     border-spacing: 30px;
     margin:auto;
+    background-color: #DA8359;
+    opacity: 0.8;
+    color:#ECDFCC;
     
 }
 thead{
@@ -18,5 +21,5 @@ tr{
 
 td{
     text-align: center;
-    
+    color:#ECDFCC;
 }
