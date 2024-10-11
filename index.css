@@ -97,3 +97,20 @@ p{
     color: #4A4947;
 }
 
+/*grid display settings */
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    
+}
+
+.grid-item{
+    text-align: center;
+    padding: 20px;
+}
+
+.cv-item{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
