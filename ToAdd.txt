@@ -1,0 +1,32 @@
+Pages:
+- CV Page
+    - add all cvs
+    - barista / tech / general
+    - I want them to be pdfs
+- Gallery
+    - photos of me at events
+    - photos taken with camera
+    - art?
+- Terminal
+    - interact with the website through a hand programmed terminal, 
+    you can see my cvs, get a unique about me section.
+    summarise my projects, my goals etc
+    will add functionality as I go on
+- Coffee quarter
+    - will add reviews for each cafe i go to, might add a google maps integration
+    to show where I've been and my google account reviews
+    will add photos of the coffees as well which may also be in the Gallery
+    under it's own coffee section
+- Pen show, honestly might replace this with blog posts, much easier a mon avis
+- blog posts categorised by pen / coding / life / travel / french / books
+- page about my french journey
+
+Features:
+- I want to fine tune a colour pallete for a common theme for the website
+- add a dark theme button
+- add french localisation 
+- add some coding projects of mine, I kinda wanna play around with processing
+- add notion kimbam
+- a personal professional timeline + my own secret timeline which can be accessed
+through hacking or a stupid process.
+- an encrypter/decrypter

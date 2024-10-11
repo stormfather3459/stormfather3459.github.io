@@ -1,0 +1,4 @@
+- grayish white: #FAF7F0
+- dark gray: #D8D2C2
+- academic brown: #B17457
+- soft black: #4A4947
