@@ -62,12 +62,18 @@ i:hover {
   cursor: pointer;
 }
 
+section{
+  background-color: #d8d2c2;
+  width: 100vw;
+  border-top:3px solid #C96868;
+  border-bottom:3px solid #C96868;
+
+}
+
 #about-me {
   display: inline-block;
-  padding-bottom: 35px;
-  margin-bottom: 20px;
+
   
-  background-color: #d8d2c2;
 }
 .img-container {
   margin-top: 0px;
@@ -97,9 +103,7 @@ h6 {
   text-align: center;
   color: #da8359;
 }
-p {
-  color: #4a4947;
-}
+
 /*button stylings */
 
 .button-27 {
@@ -171,5 +175,5 @@ button a:hover {
 }
 
 .grid-item p {
-  color: #d8d2c2;
+  color: #FADFA1;
 }
