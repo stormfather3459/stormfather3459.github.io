@@ -4,7 +4,7 @@
     font-family: Roboto;
     display: block;
     background-color: #b17457;
-    color: #d8d2c2;
+    color: white;
     overflow: hidden;
     position: sticky;
     top: 0;
@@ -48,9 +48,16 @@
 }
 
 
-.nav-bar .nav-logo a i {
+.nav-logo a i {
     display:inline;
     padding-left: 20px;
+
+}
+.nav-logo a i:hover {
+    display:inline;
+    padding-left: 20px;
+    color:#C96868;
+
 }
 .nav-logo p{
     display:inline;
