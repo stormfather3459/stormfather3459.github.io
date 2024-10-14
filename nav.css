@@ -44,11 +44,13 @@
     float:left;
     overflow: hidden;
     color: #d8d2c2;
+    display:block;
 }
 
 
 .nav-bar .nav-logo a i {
     display:inline;
+    padding-left: 20px;
 }
 .nav-logo p{
     display:inline;
