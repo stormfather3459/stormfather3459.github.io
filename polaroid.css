@@ -1,0 +1,28 @@
+.polaroid{
+    background-color: lightgrey;
+    height: 16vh;
+    position: absolute;
+    border: 1px solid darkgrey;
+    background-color: white;
+    padding: 15px 15px 60px 15px;
+    box-shadow: 5px 10px 10px darkgrey;
+    transition-timing-function: ease-out;
+    transition:  height 2s;
+    transition: 2s;
+  }
+  
+  .polaroid:hover{
+      transform:rotate(20deg) scaleY(1.2);
+  
+  }
+  
+  .polaroid:after{
+    content: attr(polaroid-caption);
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      width: calc(100% - 20px);
+      padding: 10px;
+      font-size: 25px;
+      text-align: center;
+  }

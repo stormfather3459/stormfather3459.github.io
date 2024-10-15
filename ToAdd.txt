@@ -30,3 +30,7 @@ Features:
 - a personal professional timeline + my own secret timeline which can be accessed
 through hacking or a stupid process.
 - an encrypter/decrypter
+- Replace nav bar with expandable side nav bar
+- map of locations I've been to with review and images attached.
+
+

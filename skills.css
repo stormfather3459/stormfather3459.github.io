@@ -2,6 +2,7 @@
     display:block;
     text-align: center;
     margin:auto;
+    z-index:0;
     
 }
 
@@ -10,7 +11,7 @@
 }
 
 #skills{
-    
+    height:30vh;
     width:100vw;
 }
 
@@ -18,6 +19,10 @@
     margin:0px;
     padding:0px;
     margin-bottom:5px;
+}
+
+#progress-section{
+
 }
 
 

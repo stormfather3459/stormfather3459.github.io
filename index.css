@@ -3,6 +3,8 @@
 body {
   margin: 0px;
   padding: 0px;
+  width:100;
+  overflow-x: hidden;
   /*background-color: #b17457;*/
   font-family: Roboto;
 }
@@ -161,9 +163,13 @@ button a:hover {
 }
 
 /*grid display settings and stylings */
-#grid-container {
+.grid{
+  display:grid;
+}
+
+
+#grid-important-links {
   height: 30vh;
-  display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 20px;
   background-color: #b17457;
@@ -171,9 +177,57 @@ button a:hover {
 
 .grid-item {
   text-align: center;
-  padding: 20px;
 }
 
 .grid-item p {
   color: #FADFA1;
 }
+
+#grid-personal-photos{
+  /*height: 100vh;*/
+  /*width: 100vw;*/
+  display:grid;
+  width:90%;
+  
+  /*gap: 0px 0px;*/
+  grid-template-columns: auto auto auto auto; 
+  text-align: center;
+
+}
+
+#grid-personal-photos .grid-item{
+  padding:0px;
+  margin:10px;
+  max-width:20vh;
+  max-height:20vh;
+  box-shadow: 0 0 16px #333;
+  transition: all 1.5s ease;
+  border-radius: 8px;
+
+}
+
+#grid-personal-photos img{
+  
+  max-width:20vh;
+  max-height:20vh;
+  padding:0px;
+  margin:0px;
+  border-radius: 8px;
+  box-shadow: 0 0 16px #333;
+  transition: all 1.5s ease;
+  
+
+
+
+}
+#grid-personal-photos img:hover{
+  box-shadow: 0 0 32px #333;
+}
+
+#grid-personal-photos .grid-item:hover{
+  transform: translate3d(0, 0, 0);
+  animation: zoomin 2s ease;
+  cursor: pointer;
+  transform: scale(1.025);
+}
+
